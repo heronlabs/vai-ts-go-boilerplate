@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN go mod download && go build -o ./bin/ ./src/*.go
+RUN make download && make build
 
 ENTRYPOINT ["/app/bin/main"]
