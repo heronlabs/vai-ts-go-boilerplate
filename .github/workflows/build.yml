@@ -20,13 +20,13 @@ jobs:
           version: v1.54
 
       - name: '[BUILD] | Install Dependencies'
-        run: yarn download
+        run: make download
         shell: bash
 
       - name: '[BUILD] | Compile'
-        run: yarn build
+        run: make build
         shell: bash
 
       - name: '[TEST] | Lint Check'
-        run: yarn lint
+        run: make lint
         shell: bash
