@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hello-world/src/application"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	var message = application.HelloWorld("My Project")
+
+	fmt.Println(message)
 }
