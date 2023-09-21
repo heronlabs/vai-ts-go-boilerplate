@@ -1,19 +1,19 @@
 version: '3'
 services:
-  go-api:
-    container_name: go-api
+  go-script:
+    container_name: go-script
     build:
       context: .
       dockerfile: ./Dockerfile.local
     restart: on-failure
     networks:
-      - go-api-network
+      - go-script-network
 
 volumes:
   postgres:
 
 
 networks:
-  go-api-network:
-    name: go-api
+  go-script-network:
+    name: go-script
     driver: bridge
