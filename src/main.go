@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"hello-world/src/application"
+	"go-boilerplate/src/application"
 )
 
 func main() {

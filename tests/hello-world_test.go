@@ -1,7 +1,7 @@
 package main
 
 import (
-	"hello-world/src/application"
+	"go-boilerplate/src/application"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
