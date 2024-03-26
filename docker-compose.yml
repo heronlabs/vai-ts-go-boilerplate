@@ -9,10 +9,6 @@ services:
     networks:
       - go-script-network
 
-volumes:
-  postgres:
-
-
 networks:
   go-script-network:
     name: go-script

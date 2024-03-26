@@ -30,3 +30,7 @@ jobs:
       - name: '[TEST] | Lint Check'
         run: make lint
         shell: bash
+
+      - name: '[TEST] | Tests'
+        run: make test-coverage
+        shell: bash
